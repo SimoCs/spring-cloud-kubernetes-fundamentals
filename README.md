@@ -4,7 +4,7 @@ Spring Cloud Kubernetes examples for use in Pluralsight **Spring Cloud Kubernete
 | -------- | ------- |
 | Spring Cloud  | 2022.0.4 |
 | Kubernetes | 1.28.4 |
-| Java    | 21.0.1 |
+| Java    | 17.0.9 |
 | Maven| 3.9.5  |
 | Docker| 24.0.7 |
 | Minikube| 1.32.0 |
