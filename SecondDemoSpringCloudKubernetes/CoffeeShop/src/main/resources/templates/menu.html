@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo Café Menu</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}" />
+</head>
+<body>
+<div class="menu-container">
+    <h1 class="menu-header">Demo Café Menu</h1>
+
+    <!-- Display Special Offer -->
+    <div class="special-offer" th:if="${specialOffer}" th:text="${specialOffer}">
+        <!-- Special offer text will appear here -->
+    </div>
+
+    <!-- Display Menu Items -->
+    <div th:each="item : ${menu}" class="menu-item">
+        <span class="item-name" th:text="${item.name}">Item Name</span>
+        <span class="item-price" th:text="${'Price: $' + item.price}">Price</span>
+    </div>
+
+    <!-- Display Order Confirmation Message -->
+    <div th:if="${orderConfirmation}" class="order-confirmation" th:text="${orderConfirmation}">
+        <!-- Order confirmation message will appear here -->
+    </div>
+</div>
+</body>
+</html>

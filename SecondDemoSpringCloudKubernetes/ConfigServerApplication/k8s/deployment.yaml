@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: configserver-deployment
+spec:
+  replicas: 1  # Number of instances
+  selector:
+    matchLabels:
+      app: configserver
+  template:
+    metadata:
+      labels:
+        app: configserver
+    spec:
+      containers:
+        - name: configserver
+          image: medtest2013/configserver:latest
+          ports:
+            - containerPort: 8888  # The port your app is configured to run on
