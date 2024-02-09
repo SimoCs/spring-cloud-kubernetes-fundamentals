@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: coffeeshop-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: coffeeshop
+  template:
+    metadata:
+      labels:
+        app: coffeeshop
+    spec:
+      containers:
+        - name: coffeeshop
+          image: medtest2013/coffeeshop:latest
+          ports:
+            - containerPort: 8080
+          livenessProbe:
+            httpGet:
+              path: /actuator/health/liveness
+              port: 8080
+            initialDelaySeconds: 15
+            periodSeconds: 20
+          readinessProbe:
+            httpGet:
+              path: /actuator/health/readiness
+              port: 8080
+            initialDelaySeconds: 5
+            periodSeconds: 10
