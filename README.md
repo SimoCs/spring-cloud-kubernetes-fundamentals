@@ -16,7 +16,7 @@ Spring Cloud Kubernetes examples for use in Pluralsight **Spring Cloud Kubernete
 - [Demonstrating a basic Spring Boot deployment on Kubernetes](https://github.com/SimoCs/spring-cloud-kubernetes-fundamentals/tree/main/FirstDemoSpringCloudKubernetes/CoffeeShop)
 - [Practical demonstration of configuration management with Spring Cloud](https://github.com/SimoCs/spring-cloud-kubernetes-fundamentals/tree/main/SecondDemoSpringCloudKubernetes)
 - [Demonstrating health checks and monitoring in action](https://github.com/SimoCs/spring-cloud-kubernetes-fundamentals/tree/main/ThirdDemoSpringCloudKubernetes/CoffeeShop)
-- [Showing a practical implementation in a real-world scenario](https://github.com/SimoCs/)
+- [Showing a practical implementation in a real-world scenario][(https://github.com/SimoCs/spring-cloud-kubernetes-fundamentals/tree/main/FourthDemoSpringCloudKubernetes)
 
 # Connect with me
 I am a very curious individual. Learning is my drive in life, and technology is the language I speak!
