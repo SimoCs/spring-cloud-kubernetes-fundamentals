@@ -13,9 +13,9 @@ Spring Cloud Kubernetes examples for use in Pluralsight **Spring Cloud Kubernete
 | Prometheus| 2.48.0 |
 | Grafana| 10.2.2 |
 
-- [Demonstrating a basic Spring Boot deployment on Kubernetes](https://github.com/SimoCs/spring-cloud-kubernetes-fundamentals/tree/main/FirstDemoSpringCloudKubernetes/CoffeeShop)
+- [Demonstrating a basic Spring Boot deployment on Kubernetes](https://github.com/SimoCs/spring-cloud-kubernetes-fundamentals/tree/main/FirstDemoSpringCloudKubernetes)
 - [Practical demonstration of configuration management with Spring Cloud](https://github.com/SimoCs/spring-cloud-kubernetes-fundamentals/tree/main/SecondDemoSpringCloudKubernetes)
-- [Demonstrating health checks and monitoring in action](https://github.com/SimoCs/spring-cloud-kubernetes-fundamentals/tree/main/ThirdDemoSpringCloudKubernetes/CoffeeShop)
+- [Demonstrating health checks and monitoring in action](https://github.com/SimoCs/spring-cloud-kubernetes-fundamentals/tree/main/ThirdDemoSpringCloudKubernetes)
 - [Showing a practical implementation in a real-world scenario](https://github.com/SimoCs/spring-cloud-kubernetes-fundamentals/tree/main/FourthDemoSpringCloudKubernetes)
 
 # Connect with me
