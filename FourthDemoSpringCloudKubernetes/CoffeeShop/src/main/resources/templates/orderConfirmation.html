@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Order Confirmation</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/styles.css}" />
+</head>
+<body>
+<div class="container">
+    <h2>Order Confirmation</h2>
+    <p th:text="${orderDetails}">Your order details will appear here.</p>
+    <a href="/">Place another order</a>
+</div>
+</body>
+</html>

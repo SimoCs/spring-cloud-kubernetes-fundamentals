@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>View Orders</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/styles.css}" />
+</head>
+<body>
+<div class="container">
+    <h2>Orders</h2>
+    <table>
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Coffee Type</th>
+            <th>Quantity</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="order : ${orders}">
+            <td th:text="${order.id}">ID</td>
+            <td th:text="${order.coffeeType}">Coffee Type</td>
+            <td th:text="${order.quantity}">Quantity</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
